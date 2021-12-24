@@ -1,5 +1,5 @@
-# Predict_Gender_From_Voice_Application
-### This application predicts the gender given a voice. This is a classification problem, hence the SVC and the RandomForestClassifier models were used. The metric that was used to determine the performance of the models was the accuracy. The dataset was obtained from [Kaggle]('https://www.kaggle.com/primaryobjects/voicegender?select=voice.csv'). The features of the dataset are the following:
+# Predict_Gender_From_Voice_Model
+### This model predicts the gender given a voice. This is a classification problem, hence the SVC and the RandomForestClassifier models were used. The metric that was used to determine the performance of the models was the accuracy. The dataset was obtained from [Kaggle]('https://www.kaggle.com/primaryobjects/voicegender?select=voice.csv'). The features of the dataset are the following:
 - meanfreq: mean frequency (in kHz)
 - sd: standard deviation of frequency
 - median: median frequency (in kHz)
@@ -23,7 +23,7 @@
 - modindx: modulation index. Calculated as the accumulated absolute difference between adjacent measurements of fundamental frequencies divided by the frequency range
 - label: male or female
 
-The steps which were taken to build the project were as follows:
+The steps which were taken to build the model were as follows:
 - EDA techniques were performed, i.e.:
   - Check for any null values
   - Check the description of the dataframe
